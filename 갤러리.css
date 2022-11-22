@@ -7,7 +7,7 @@ div.gallery {
   }
   
   div.gallery:hover {
-    border: 20px solid rgb(63, 63, 63);
+    border: 20px solid rgb(247, 242, 242);
   }
   
   div.gallery img {
@@ -19,7 +19,7 @@ div.gallery {
   div.desc {
     padding: 10px;
     text-align: center;
-    color:rgb(15, 15, 15);
+    color:rgb(18, 18, 18);
     
   }
   

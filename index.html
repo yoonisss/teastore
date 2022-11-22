@@ -51,21 +51,33 @@
     grid-template-rows:  1fr;
     row-gap: 10px;
   }
-
   #menutitle {
   display: grid;
     border: 0px solid rgb(247, 241, 241);
-    margin: 0;
+    margin: 0px;
     grid-template-rows:  1fr;
-    row-gap: 10px;
+    row-gap: 20px;
+    float: right;
   }
   #menutilte li {
   display: grid;  
   float: right;
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
+  margin : 20px;
+  padding:0 20px;         
+  border-left:1px solid #999;
 }
+  
+#menutitle  li {
+            display:inline;                         /*  세로나열을 가로나열로 변경 */
+            border-left:1px solid #999;             /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+            font:bold 15px Dotum;                     /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+            padding:0 15px;                         /* 각 메뉴 간격 */
+        }
+         nav ul li:first-child{border-right:none;}     /* 메뉴 분류중 제일 왼쪽의 "|"는 삭제       
+    </style>
+</style>
+ 
   
 </style>
 <!-- //로그인 버튼 링크 -->
@@ -307,7 +319,7 @@ window.onclick = function(event) {
 }
 </script>
 
-  
+
  <!-- 배너 슬라이드 -->
 
   <div>
@@ -382,24 +394,35 @@ window.onclick = function(event) {
  
 </p>
 
+
+ 
+<!-- 메뉴 목록 -->
 <div id="menutitle">
   <br>
   <div>
     <span>
-      <li> 판매순</li>
+      <li>판매순</li>
       <li>높은가격순</li>
       <li>낮은가격순</li>
       <li>인기순</li>
       <li>신상품순</li>
 </span>
   </div>
-  <hr>
-    
+
+<div>
+  <br>
+  <br>
     <br>
-    </div>
+</div>
 </div>
 <div>
+  <br>
+  <br>
+  <br>
+  <br>
   <h2>NEW</h2>
+  <br>
+  <br>
 <hr>
 </div>
 
